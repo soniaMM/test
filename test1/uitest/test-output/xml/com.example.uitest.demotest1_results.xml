@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test1"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.182">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createpeople"
+                time="14.138"
+                classname="com.example.uitest.demotest1">
+            </testcase>
+            <testcase
+                name="delete"
+                time="0.044"
+                classname="com.example.uitest.demotest1">
+            </testcase>
+</testsuite>

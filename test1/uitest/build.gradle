@@ -1,0 +1,17 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+dependencies {
+    implementation 'io.appium:java-client:7.2.0'
+    implementation 'org.testng:reportng:1.2.2'
+    implementation 'org.testng:testng:6.9.6'
+}
+test {
+    useTestNG()
+}
